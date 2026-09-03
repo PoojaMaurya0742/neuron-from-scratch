@@ -52,9 +52,8 @@ Each input is multiplied by its corresponding weight, and all the products are a
 
 The formula is:
 
-$$
-Weighted\ Sum = \sum_{i=1}^{n} x_iw_i
-$$
+Weighted Sum += input(x) * weights(w)
+
 
 For this example:
 
