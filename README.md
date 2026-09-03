@@ -58,31 +58,22 @@ $$
 
 For this example:
 
-$$
-(2 \times 0.5) + (4 \times 0.25)
-$$
+(2 * 0.5) + (4 * 0.25)
 
-$$
+
 = 1 + 1
-$$
-
-$$
 = 2
-$$
 
 ### 4. Bias
 
 The bias is added to the weighted sum.
 
-$$
 z = Weighted\ Sum + Bias
-$$
 
 Here:
 
-$$
 z = 2 + 1 = 3
-$$
+
 
 The value `z` is then passed to the activation function.
 
@@ -90,21 +81,14 @@ The value `z` is then passed to the activation function.
 
 This implementation uses the **Sigmoid activation function**.
 
-$$
-Sigmoid(z) = \frac{1}{1 + e^{-z}}
-$$
+
+Sigmoid(z) = 1/1 + e^(-z)
 
 For:
 
-$$
 z = 3
-$$
 
-the output is approximately:
-
-$$
-0.9526
-$$
+the output is approximately:0.9526
 
 The sigmoid function produces an output between **0 and 1**.
 
