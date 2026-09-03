@@ -59,15 +59,15 @@ For this example:
 
 (2 * 0.5) + (4 * 0.25)
 
-
 = 1 + 1
+
 = 2
 
 ### 4. Bias
 
 The bias is added to the weighted sum.
 
-z = Weighted\ Sum + Bias
+z = Weighted Sum + Bias
 
 Here:
 
